@@ -1,4 +1,5 @@
 <?php
+namespace XdebugUtils;
 /**
  * @file
  * The main trace parser.

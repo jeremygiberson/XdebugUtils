@@ -1,4 +1,6 @@
 <?php
+namespace XdebugUtils;
+
 class WhoCallsStackTrace extends StackTraceForSymbol {
   
   public $longest = 0;

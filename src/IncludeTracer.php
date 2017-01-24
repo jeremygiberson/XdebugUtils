@@ -1,4 +1,6 @@
 <?php
+namespace XdebugUtils;
+
 class IncludeTracer implements TraceParserObserver {
   protected $format = "%d\t%s\t[%s in %s:%d] Time: %0.4f, Size: %d\n";
   protected $counter = 0;
