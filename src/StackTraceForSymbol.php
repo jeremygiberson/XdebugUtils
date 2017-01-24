@@ -1,4 +1,6 @@
 <?php
+namespace XdebugUtils;
+
 class StackTraceForSymbol implements TraceParserObserver {
   
   /**
